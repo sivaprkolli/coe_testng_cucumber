@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Suite">
+<test name="Smoke">
+    <classes>
+        <class name="com.coe.testngBasics.PriorityTest"></class>
+        <class name="com.coe.testngBasics.Annotations"></class>
+        <class name="com.coe.testngBasics.Annotations1"></class>
+        <class name="com.coe.testngBasics.DependentOnMethods"></class>
+    </classes>
+</test>
+</suite>
