@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Retry">
+    <listeners>
+        <listener class-name="com.coe.testngBasics.RetryTransformer"></listener>
+    </listeners>
+    <test name="Smoke" verbose="2">
+        <classes>
+            <class name="com.coe.testngBasics.RetryWhenTestFails"></class>
+        </classes>
+    </test>
+</suite>
